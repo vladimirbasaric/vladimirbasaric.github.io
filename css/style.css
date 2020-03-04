@@ -392,8 +392,6 @@ body {
         margin: 0; } }
   .feature-box__text {
     list-style: none; }
-  .feature-box:hover {
-    transform: translateY(-1.5rem) scale(1.03); }
 
 .footer {
   background-color: #333;
