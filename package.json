@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio za posao",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Vladimir Basaric",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "node": "^12.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimirbasaric/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vladimirbasaric/portfolio/issues"
+  },
+  "homepage": "https://github.com/vladimirbasaric/portfolio#readme"
+}
