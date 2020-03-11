@@ -37,6 +37,33 @@
         }
     }
 
+    &--blue {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
+    &--green {
+        background-color: $color-tertiary-light;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-tertiary-light;
+        }
+    }
+
+    &--orange {
+        background-color: $color-secondary-light;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-secondary-light;
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
